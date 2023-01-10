@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.upper-profile{
+  display: flex;
+  gap:70px;
+  
+}
+.image{
+  margin-left:40px;
+}
+.image img{
+  border-radius: 50%;
+  border: 2px solid black;
+  width:200px;
+  height: 200px;
+}
+.content{
+  margin-top: 50px;
+}
+.lower-profile{
+  
+  display: flex;
+  gap: 80px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.Search{
+  margin: 5px;
+  padding: 10px;
+}
+.Search input{
+  width:500px;
+  height:30px;
+  margin-top: 10px;
+  padding: 2px;
+}
+button{
+  width: 100px;
+  height:35px;
+  background-color: lightseagreen;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.main-profile{
+  margin-top:30px;
+  
+}
+.content{
+  padding:5px;
+}
+.Repo{
+  margin: 20px;
+}
+.Repo ul {
+  margin: 10px 30px;
+}
+
+.Repo h2{
+  margin: 5px;
+}
