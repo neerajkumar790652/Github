@@ -22,7 +22,7 @@ const Profile = () => {
       //  const avtarJson = await avtar.json()
        console.log(repoJson);
        if(profileJson){
-        setData(profileJson);
+        setData(...profileJson,profileJson);
         setRepositories(repoJson);
        }
        
