@@ -1,6 +1,4 @@
 import React,{useState} from 'react';
-
-
 const Profile = () => {
     const [data,setData]=useState({});
     const[username,setUsername]=useState("neerajkumar790652");
